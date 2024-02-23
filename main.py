@@ -2,7 +2,7 @@
 # here you can find latter a little project, but if it should be here, let's make a little prgrm here
 
 import tkinter as tk
-from tkinter import Tk, filedialog  # Используем filedialog только для выбора файлов
+from tkinter import Tk, filedialog 
 
 def get_credentials():
     def login():
@@ -78,7 +78,7 @@ def get_credentials():
     canvas.bind("<MouseWheel>", on_mouse_scroll)
 
     root.mainloop()
-
+    
     return result
 
 # Получение учетных данных
